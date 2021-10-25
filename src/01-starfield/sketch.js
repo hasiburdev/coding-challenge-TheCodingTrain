@@ -3,8 +3,6 @@
 const stars = []
 const MAX_LEN = 200
 
-// console.log(Star)
-
 function setup() {
 	createCanvas(windowWidth, windowHeight)
 
@@ -21,5 +19,4 @@ function draw() {
 		star.update()
 		star.show()
 	}
-	// noLoop()
 }
